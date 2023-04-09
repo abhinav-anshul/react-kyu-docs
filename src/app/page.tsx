@@ -44,6 +44,7 @@ export default function Home() {
       
       <div style={{ borderRadius: '10px', overflow: 'hidden' }}>
         <div style={{backgroundColor : "#f7f7f7", width : "fit-content", padding : "0.2rem 1rem"}}>index.jsx</div>
+        {/* @ts-ignore */}
         <Highlight language="js">
 {`import React from "react"
 import ReactDOM from "react-dom/client" 
